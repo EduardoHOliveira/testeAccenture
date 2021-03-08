@@ -1,0 +1,115 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: UTF-8"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6433499000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tricentis.iniciar()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Realizar o cadastro com sucesso",
+        "description": "",
+        "id": "cadastro-tricentis;realizar-o-cadastro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366339300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "informo os campos da aba enter Vehicle Data e prossigo",
+            "match": {
+              "location": "Tricentis.informoOsCamposDaAbaEnterVehicleDataEProssigo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1041797500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "informo os dados da aba enter Insurant Data e prossigo",
+            "match": {
+              "location": "Tricentis.informoOsDadosDaAbaEnterInsurantDataEProssigo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 635122500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informo os dados da aba enter Product Data e prossigo",
+            "match": {
+              "location": "Tricentis.informoOsDadosDaAbaEnterProductDataEProssigo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 185088100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "informo os dados da aba Select Price Option e prossigo",
+            "match": {
+              "location": "Tricentis.informoOsDadosDaAbaSelectPriceOptionEProssigo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 575552700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo os dados da aba Send Quote e envio",
+            "match": {
+              "location": "Tricentis.informoOsDadosDaAbaSendQuoteEEnvio()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8637693200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valido a mensagem de sucesso",
+            "match": {
+              "location": "Tricentis.validoAMensagemDeSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro Tricentis",
+    "description": "Preencher formulario e obter mensagem de sucesso",
+    "id": "cadastro-tricentis",
+    "keyword": "Funcionalidade",
+    "uri": "Tricentis.feature"
+  }
+]
